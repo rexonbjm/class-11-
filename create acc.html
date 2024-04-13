@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bajimaya</title>
+	<link rel="stylesheet" type="text/css" href="external cc.css">
+</head>
+<body>
+	<h1>Create an account</h1>
+	<form action="login.html">
+	<fieldset>
+		<legend style="text-align: left;"><h2>Sign Up</h2></legend>
+		<input type="text" placeholder="First Name" required>   
+		<input type="text" placeholder="Last Name" required><br><br>
+		<input type="text" placeholder="Mobile number or Email" required><br><br>
+		<input type="password" placeholder="Password" required><br><br>
+		<input type="password" placeholder="Re-type Password" required><br><br>
+		<label for="Gender">Gender:</label>
+		<select id="Gender" name="Gender">
+  			<option value="male">Male</option>
+  			<option value="female">Female</option>
+  			<option value="others">Others</option>
+ 			<option value="no">Prefer not to say</option>
+		</select><br><br>
+		<label>Choose your preferred pronoun</label>
+		<input type="radio" name="pronoun" value="he">
+			He/Him
+		<input type="radio" name="pronoun" value="she">
+			She/Her
+		<input type="radio" name="pronoun" value="they">
+			They/Them
+		<input type="radio" name="pronoun" value="other">
+			Other<br><br>
+		<label for="birthday">Birthday:</label>
+			<input type="date" id="birthday" name="birthday" min="1900-01-01" max="2023-04-21" required><br><br>
+		<input type="submit" name="submit">
+		</form>
+</body>
+</html>
